@@ -27,3 +27,20 @@ print("# division")
 
 divide= Num1 / Num2
 print("The quotient of two numbers is: ", divide)
+
+
+# 2. Personlised Greeting mesaage
+ # Personlised greeting
+
+# Input from the user
+
+name = input("Enter your name: ")
+last_name = input("Enter your Last name: ")
+
+# Greeting
+
+print("Hello, " + name + " " + last_name + "! Welcome to the Python Program")
+
+
+
+
