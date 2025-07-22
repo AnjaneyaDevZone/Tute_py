@@ -66,3 +66,51 @@ for i in range(1, 51):
 
     print ("The sum of nnumbers from 1 to 50 is: ", sum)
     
+
+    #Assignment3, In this task I Print Factorial of a number using recurrsion and using for loop as well here is the code:
+
+    def factorial(n):
+
+    #To calculate the factorial of a number
+    if n <2:
+        return 1
+    else:
+        return n * (factorial(n-1))
+result = factorial(5)
+print(result)
+
+#Loop
+
+#Using Loop
+
+def factorial_loop(n):
+    result = 1
+
+    for i in range(1, n+1):
+        result*= i
+    return result
+
+result= factorial_loop(5)
+    
+print(result)
+
+
+
+
+#After this in the 2nd task I have completed the task using math module where I print Squar root, log base e and sin of a number in radians of a number entered by the user. Here is is the code.
+
+import math
+num= int(input("Enetr a number: "))
+
+sqrt_num = math.sqrt(num)
+
+#log base e of the number
+log_num = math.log(num)
+
+# Sine of the number (in radians)
+sine_num= math.sin(num)
+
+print("Squar Root of the number is: ", sqrt_num)
+print ("Log base e of the numebr is: ", log_num)
+print("Sine of the number is: ", sine_num)
+
